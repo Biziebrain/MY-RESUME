@@ -1,19 +1,21 @@
 body{
     background-color:white;
+    margin: 0;
 }
 .leftPanel{
  border: 2px solid black;
- 
  display: inline-block;
  background-color: black;
  padding: 20px;
  color: white;
+ position:relative;
+ left: 11%;
  }
 
 h2{
     background-color:gray;
     color: white;
-    position: position;
+    
     right: 20px;
     
     
@@ -24,4 +26,17 @@ h2{
 }
 .info span{
     color: white;
+}
+.rightPanel{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: white;
+    width:55%;
+    color: black;
+    position:absolute;
+    left: 32%;  
+    padding:20px;
+}
+.subTtitles{
+    font-weight: bolder;
 }
