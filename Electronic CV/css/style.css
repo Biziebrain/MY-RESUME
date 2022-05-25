@@ -1,0 +1,27 @@
+body{
+    background-color:white;
+}
+.leftPanel{
+ border: 2px solid black;
+ 
+ display: inline-block;
+ background-color: black;
+ padding: 20px;
+ color: white;
+ }
+
+h2{
+    background-color:gray;
+    color: white;
+    position: position;
+    right: 20px;
+    
+    
+}
+.info{
+    color:gray;
+    text-align: end;
+}
+.info span{
+    color: white;
+}
